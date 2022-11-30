@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #f4f4f5;
+  }
+  .navbar .container{
+      display: block;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f4f4f5;
+    border-top: 1px solid #bec3dc;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  .footer{
+    font-size: 0.875rem;
+    color: #4A4A4A;
+  }
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+
+  .logo img{
+    height: auto;
+    width: auto;
+    
+  }
+  .btn-link:hover, .btn-link:focus{text-decoration: none; outline: none; box-shadow:none;}
+  .card-header { padding: 0; }
+  

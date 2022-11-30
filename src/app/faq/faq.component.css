@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    max-width: 950px;
+}
+.btn-primary.round{
+    text-align: center;
+    color: #FFFF;
+    background: #EF512E;
+    border: 1px solid #EF512E;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 9px 20px;
+}
+.btn-outline-primary.round{
+    text-align: center;
+    color: #000000;
+    background: #FFFF;
+    border: 1px solid #EBD5D2;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 9px 20px;
+}
+a.round.btn:focus, a.round.btn:active, a.orange.btn:focus, a.orange.btn:active{
+    outline: none!important;
+    box-shadow: none!important;
+    background: #EF512E!important;
+    border-color: #EF512E!important;
+}
+.btn.orange{
+    background: #FFFF!important;
+    border-color: #EF512E!important;
+    color: #000;
+    font-weight: 400;
+}
+h5 {
+    color: #000000;
+    font-weight: 400;
+    margin-bottom:0;
+    padding: 5px 0;
+}
+h5 > i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    color: #EF512E;
+    border-radius: 50%;
+    text-align: center;
+}
+p{
+    margin-bottom: 0!important;
+}
+.card .btn{
+    display: block!important;
+    width: 100%;
+    text-align: left;
+}
+.card-body a{
+    color: #DC3E15!important;
+}
+h5 .badge{
+    background-color: #E6E6E6 !important;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+mark{
+    background-color: rgb(220 62 21 / 25%);
+    padding: 0;
+    margin: 0;
+}
+.tiles{width: 100%;}
+i.fa{
+    color: #EF512E;
+}

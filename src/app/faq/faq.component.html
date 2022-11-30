@@ -1,0 +1,88 @@
+<main role="main" class="container pt-3 pb-3 mt-3">
+    <h3 class="mt-5 py-3">
+      <a (click)="reloadPage()" type="button" class="btn orange btn-primary"><i class="fas fa-home"></i></a>
+      {{pageTitle}}
+      <a href="#/login" class="float-right btn orange"><i class="fas fa-sign-out-alt"></i></a>
+    </h3>
+    <div class="row">
+      <div class="col-12 mb-4" *ngIf="!showCatagories">
+        <div class="input-group">
+          <input type="text" #globalsearchInput class="form-control" (input)="globalsearch(globalsearchInput.value)" placeholder="Global  Search" aria-label="Global Search" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary orange" type="button" (click)="globalsearch(globalsearchInput.value)">Search</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12" *ngIf="showGlobalsearch">
+        <ngb-accordion #acc="ngbAccordion" id="accordion">
+          <ngb-panel id="acc-{{i}}" *ngFor="let qa of questionAnswers; let i = index">
+            <ng-template ngbPanelTitle>        
+              <h5>
+                <i class="mr-3">{{acc.isExpanded('acc-'+i)?'-':'+'}}</i>
+                <span [innerHTML]="qa.question | highlight: searchTerm"></span>
+                <span class="badge badge-secondary float-right ml-4">{{qa.parentcat}} <i class="fa fa-angle-right"></i> {{qa.cat}}</span> 
+                
+              </h5>
+              
+            </ng-template>
+            <ng-template ngbPanelContent>
+              <p [innerHTML]="qa.answer | highlight: searchTerm"></p>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </div>
+      <div *ngIf="questionAnswers.length==0 && showGlobalsearch">
+        <h5>No Result found!</h5>
+      </div>
+    </div>
+    <section *ngIf="!showCatagories && !showGlobalsearch">
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-4"  *ngFor="let parentcategory of parentCategories ">
+          <div class="tiles btn orange mx-2 my-3 p-3" (click)= "getSpecficParentCategoryQuestions(parentcategory.cat)">
+            <h4 class="title">{{parentcategory.cat}}</h4>
+            <p>{{parentcategory.tag}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section *ngIf="showCatagories">
+      <h4 class="mb-3">{{selectedParentCat}}</h4>
+      <p>
+        <a type="button" href="javascript:void(0);" [ngClass]="selectedCat=='All'?'btn-primary':'btn-outline-primary'" class="btn round mr-4 mb-4" (click)="acc.collapseAll(); getSpecficParentCategoryQuestions(selectedParentCat);">All</a>
+        <a *ngFor="let category of categories" type="button" href="javascript:void(0);" (click)= "acc.collapseAll(); getSpecficCategoryQuestions(category)" class="btn round mr-4 mb-4" [ngClass]="selectedCat==category?'btn-primary':'btn-outline-primary'">{{category}}</a> 
+      </p>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <div class="input-group">
+            <input type="text" #searchInput class="form-control" (input)="acc.expandAll(); search(searchInput.value)" placeholder="FAQ Search for {{selectedParentCat}}" aria-label="FAQ Search" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary orange" type="button" (click)="acc.expandAll(); search(searchInput.value)">Search</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-12 col-sm-4 text-right">
+          <a type="button" href="javascript:void(0);" class="btn orange btn-primary btn-sm mr-4 mb-3" (click)="acc.expandAll()">Expand All</a>
+          <a type="button" href="javascript:void(0);" class="btn orange btn-primary btn-sm mr-4 mb-3" (click)= "acc.collapseAll()" >Collapse All</a> 
+        </div> -->
+      </div>
+      
+      <ngb-accordion #acc="ngbAccordion" id="accordion">
+        <ngb-panel id="acc-{{i}}" *ngFor="let qa of questionAnswers; let i = index">
+          <ng-template ngbPanelTitle>        
+            <h5>
+              <i class="mr-3">{{acc.isExpanded('acc-'+i)?'-':'+'}}</i>
+              <span [innerHTML]="qa.question | highlight: searchTerm"></span>
+              <span *ngIf="selectedCat=='All'" class="badge badge-secondary float-right ml-4">{{qa.cat}}</span>
+            </h5>
+            
+          </ng-template>
+          <ng-template ngbPanelContent>
+            <p [innerHTML]="qa.answer | highlight: searchTerm"></p>
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+      <div *ngIf="questionAnswers.length==0">
+        <h5>No Result found!</h5>
+      </div>
+    </section>
+  </main>
