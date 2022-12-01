@@ -6,3 +6,19 @@
     width: 100%;
     max-width: 950px;
 }
+
+/* added css */
+
+.fab{
+position: relative;
+right: 40px;
+padding: 10px;
+}
+
+.SocialNetwork{
+    position: relative;
+    left: 25px;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
