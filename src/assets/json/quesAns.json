@@ -5,579 +5,286 @@
     "data":[
         {
             "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "UI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "question": "What training related courses need to be completed before joing the Projects?",
+            "answer": "Before joining TD Projects, mandatory training should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
+            "cat": "Technical",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite  Tag Goes Here"
         },
         {
             "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
-            "cat": "UI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "question": "What technology related courses need to be completed before joing the Projects?",
+            "answer": "Before joining TD Projects, mandatory courses should be completed like <b> Java </b>, <b> Spring</b>, <b> Spring Boot</b>",
+            "cat": "Technical",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
             "id": "0003",
             "question": "What training need to be completed for UI Developer?",
             "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 2 Tag Goes Here"
+            "cat": "Technical",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
             "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 2 Tag Goes Here"        
+            "question": "What Mandatory  Training need to be completed before joing the Projects?",
+            "answer": "Before joining TD Projects, Mandatory Training should be completed: <b> Agile way of working(5376) </b>, <b> PI(1846)</b>, <b> BCM(5414) </b>, <b> General Banking(3043)</b>,<b> Cloud Computing(4142)</b>,<b> MFDM(6125)</b> </br>",
+            "cat": "Mandatory Courses",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite  Tag Goes Here"
         },
         {
             "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "question": "What portal need to use for technical training?",
+            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
+            "cat": "Technical",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
             "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "question": "What portal need to use for technical training?",
+            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
+            "cat": "Mandatory Courses",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "00007",
+            "question": "What are the learning paths for MS Azure Cloud Platform?",
+            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
+            "cat": "Technical",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
             "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
             "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
             "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "cat": "Mandatory Courses",
+            "parentcat": "Prerequisite",
+            "parentcatTag": "prerequisite Tag Goes Here"
         },
         {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "WIKI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0021",
+            "question": "What is the mandatory process that associate must go through before onboarding?",
+            "answer": "Associate have to complete BGC and Mandatory tranings before onboarding.",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
         },
         {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
-            "cat": "WIKI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0022",
+            "question": "What are the required documents for BGC completion?",
+            "answer": "<ol><li>BGC form</li><li>Aadhar Card</li><li>PAN Card</li><li>Passport</li><li>Higher Education Marksheet</li><li>Affidavit for Address Proof in case present address & permanent address are different.</li></ol>",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
         },
         {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0023",
+            "question": "Point of Contacts for BGC Process.",
+            "answer": "BGC Process<br>SPOC: Amit(1897431), Vandana(2073796)<br>Mode of Connect: MS Teams/Mail",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
         },
         {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0024",
+            "question": "Point of Contacts TD Onboarding & Machine configuration.",
+            "answer": "Point of Contacts for TD onboarding and machine configuration.<br>Amit(1897431), Vandana(2073796)<br>Mode of Connect: MS Teams/Mail",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
         },
         {
-            "id": "0005",
+            "id": "0025",
+            "question": "Point of Contacts for Learning Queries.",
+            "answer": "Learning Queries<br>Vandana(2073796)<br>Mode of Connect: MS Teams/Mail",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
+        },
+        {
+            "id": "0026",
+            "question": "Point of Contacts for Project related Queries.",
+            "answer": "Project related Queries<br>Subhadeep(479920)<br>Mode of Connect:Mail",
+            "cat": "BGC",
+            "parentcat": "Onboarding",
+            "parentcatTag": "Onboarding  Tag Goes Here"
+        },
+        {
+            "id": "0071",
+            "question": "What if RSA Software is not install?",
+            "answer": "Raise a CR ticket via Ultimatix. Steps: Ultimatix-->Global Help Desk-->IT Services",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "Project Setup Tag Goes Here"
+        },
+        {
+            "id": "0072",
+            "question": "How to install VDI for project setup?",
+            "answer": "<ol><li>Install RSA Software</li><li>Collect Domain ID and Manager name.</li><li>Connect with your domain help desk or connect with TCS help desk if you are not able to connect directly with the Domain Help Desk.</li><li>Confirm your Domain ID & ask them to provide temporary passowrd.</li><li>They will call your manager for confirmation and will provide you with the Passowrd and ID.</li><li>Turn on your system and login with your ID and Passoword.</li><br>Setup is completed.</ol>",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "Project Setup Tag Goes Here"
+        },
+        {
+            "id": "0073",
             "question": "How to launch the VDI?",
             "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System setup Tag Goes Here"
         },
         {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
+            "id": "0075",
+            "question": "What is the process for Globe domain migration?",
+            "answer": "Steps for Global domain migration. <ol><li>Go to Global Helpdesk</li><li>Click on Register RFC from drop down in My Links on top left.</li><li>Identity Access Management</li><li>Domain Account Migration within TCS & click Continue</li><li>Select Expiry date as 1 year from the date of raising the RFC & select RFC Raised for Individual</li><li>Click on Submit and Yes</li></ol><ul>Note: No approval needed for this.<br>Usual resolution time is 1day.So anyone can raise this request.</ul>",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0076",
+            "question": "What is the process for OU migration?",
+            "answer": "<ul>Note:This request SHOULD be raised by team member NOT by PL.<br>If a PL raises it then it will go to your DM for approval.</ul><ol><li>Go to TCS Global Helpdesk</li><li>Raise a new change request</li><li>Fill all CR details, prerequisites is important.Process is automated, so it is driven off the prerequisites tab</li><li>Fill change request description and other details carefully.</li><li>And click Submit.</li></ol><ul>This request goes to the PL for approval.<br>So it is advisable for a team member to raise it so that the PL can approve.",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0077",
+            "question": "What is the process for RFC for remote setup?",
+            "answer": "<ul>Note:This request is needed only in case of remote setup where-in the associate is in possession of a machine.If the associate does not have a machine, proceed to Final step: Final email for machine setup.<br>This request SHOULD be raised by a team member NOT by a PL. If a PL raises it then it will go to DM for approval.</ul><ol><li>Go to TCS Global Helpdesk</li><li>Click on Register RFC from the drop down in My Links on top left</li><li>Catelogue Details</li><li>Access Management.</li><li>Privilege/Profile Access-BPS</li><li>Type of Access: Profile Access Rights.</li><li>RFC raised for Individual & select start date and end date and click Continue.</li><li>And click Submit.</li></ol><ul>This request goes to the PL for approval.<br>So it is advisable for a team member to raise it so that the PL can approve.",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0078",
+            "question": "What is the process Final email for Machine detup?",
+            "answer": "<ul>After the RFC isresolved, you can drop an email to the IS team with Thivya Venkataramanan and the reporting manager for the resource in CC.<br>S2 IS:heena.k2@tcs.com,amol.sathe@tcs.com<br>S3 IS:utkarsh.jain@tcs.com,Vighnesh.pamdey1@tcs.com,<br>Sahyadri.ISBOP@tcs.com<br>For any email that is sent for remote setup below details need to be mentioned in the email<br>Emp#<br>Emp Name<br>Contact#<br>RSA token(should be attached in email)<br>UX ticket# for TD remote machine setup.<br>When the ticket is raised,please ensure that the associate location in ultimatix is set to TCS-Pune;SP-S2-Torna</ul>",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0079",
+            "question": "Important points to Note.",
+            "answer": "<ul><li>Whenever any associate raises a ticket for machine setup or for resolving any issues related to the machine, ensure that his/her location in GHD is set to TCS-Pune; SP-S2-Torna</li><li>Please ask the associate to enable and reset his/her Globe domain password in Ultimatix once Step 2 is completed.</li><li> Ensure that associate is aware that someone from IS team will connect with him/her for setting up the machine.Preferred means of communication by the IS team is TCS teams</li><li> Associate should NOT change his/her Globe password once the machine is setup</li><li> Associate should NEVER connect the machine to TCS VPN unless asked to do so by the IS team.</li><li>Associate should NOT be in possession of admin passwords and if available should NEVER use them without prior permission from his lead, location SDL and local IS.</li><li> Some machines dispatched from office come with a power on password.The power on password for the machine is Uknow It.</li></ul>",
+            "cat": "Machine Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0080",
+            "question": "What are the software(s) required to start work?",
             "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "cat": "Required Software Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
         },
         {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0081",
+            "question": "PROD VDI Setup?",
+            "answer": "<ol><li>Download VDI Request Form | Days required: 0</li><li>AD Group request Steps for PROD VDI* | Days required: 2-4</li><li>D2-TDBFG account Request Setup* | Days required: 1-3</li><li>Request for VDI | Days required: 2-5</li><li>Day 1 VDI Setup activities | Days required: 1-3</li><li>Software requests from ServiceNow | Days required: 1-2</li><li>Eclipse and VS Code request from ServiceNow | Days required: 1-2</li><li>Map Symcore Shared Drive | Days required: 0</li><li>Portable Software Setup | Days required: 0</li><li>Beyond Trust Privilege Management Access Request* | Days required: 2-3</li><li>Set Environment variable without Admin rights | Days required: 0</li><li>Beyond Trust Software request | Days required: 1-2</li><li>UI Environment Setup Guide | Days required: 0</li><li>Install the Angular CLI and Grunt CLI Globally</li><li>Node JS 10 and 6 setups</li><li>Temporary Change NodeJS version</li><li>NodeJS setup for Angular 9 and 6</li><li>NodeJS Setup for AngularJS(1.5)</li><li>PHP XAMPP Setup</li><li>Install VS Code</li><li>Setup VS Code Bash Terminal</li></ol>",
+            "cat": "Required Software Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
         },
         {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0082",
+            "question": "What are the OU details?",
+            "answer": "<ul>BBSR - GLOBE.TCS.com/TODB/IT/IN/BHU/BBT/USERS/<br>Kolkata - GLOBE.TCS.com/TODB/IT/IN/KOL/GIP/USERS/<br>Pune - GLOBE/TCS.com/TODB/IT/IM/PUN/SIP/USERS/<br>TD Users group - 'glb_bps_tdbank_all_users'</ul>",
+            "cat": "Required Software Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
         },
         {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0083",
+            "question": "How to install Eclipse and VS Code?",
+            "answer": "<ul>Note: Software installation process takes upto 3 days.</ul><ol><li>Open a service catalogue.</li><li>Select Software from the categories.</li><li>Inside software go to the developer tool.</li><li>Click on show more at the end of the page.</li><li> Search for VS Code or Eclipse and click on the link.</li><li>Fill the required field.</li><li>Click on Add to cart.</li><li>After adding click on order now.</li></ol>",
+            "cat": "Required Software Setup",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
         },
         {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "VDI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "id": "0051",
+            "question": "What is the prcess if your System got locked?",
+            "answer": "Associate have to raise a CR ticket through Ultimatix-->Global Help Desk-->IT Services.",
+            "cat": "Help Desk",
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
         },
         {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
+            "id": "0052",
+            "question": "What is the process if associate forgets the password?",
+            "answer": "Associate have to reset the password.",
+            "cat": "Help Desk",
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
+        },
+        {
+            "id": "0053",
+            "question": "What is the process if associate forgets the Global Domain Password?",
+            "answer": "Associate have to raise a request on Project Domain help desk.",
+            "cat": "Help Desk",
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
+        },
+        {
+            "id": "0054",
+            "question": "What if the associate not confirmed about SWON/WON number?",
+            "answer": "Associate have to immediately connect with Project Leader or Project Manager.",
             "cat": "General",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
         },
         {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "UI",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "UI",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
+            "id": "0055",
+            "question": "What is the process of getting ODC access?",
+            "answer": "Associate have to contact with there base location ODC Management Team.",
             "cat": "General",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
         },
         {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
+            "id": "0056",
+            "question": "What are the DO's & DONT's associate must know before entering the ODC?",
+            "answer": "Associate must go through the pdf received through mail & follow it strictly.",
             "cat": "General",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
         },
         {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "WIKI",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "UI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
-            "cat": "UI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 2 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 2 Tag Goes Here"        
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "WIKI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
-            "cat": "WIKI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 4",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
-            "cat": "VDI",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
+            "id": "0057",
+            "question": "What if the associate do not have ID Card?",
+            "answer": "Associate have to connect with HR and take a approval for ID Card.",
             "cat": "General",
-            "parentcat": "Category 1",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"        
         },
         {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
+            "id": "0058",
+            "question": "How to Login to VDI from outsid'e Domain Network?",
             "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 3",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "VDI",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "UI",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "UI",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0001",
-            "question": "What training need to be completed before joing the Projects?",
-            "answer": "Before joining TD Projects, mandatory trainings should be completed like <b>Agile Way of wroking E1 (5376)</b>, <b>Process Improvement E0 (1846)</b>, <b>BCM E0 (5414)</b>",
             "cat": "General",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0002",
-            "question": "What portal need to use for technical training?",
-            "answer": "In ultimatix, there are multiple learning portals where we can learn technical skiils. <a href='https://play.fresco.me' target='_blank'>Portal Fresco</a>, <a href='https://www.linkedin.com/learning/' target='_blank'>Linkedin</a>, <a href='https://tcsglobal.udemy.com' target='_blank'>Udemy</a>",
-            "cat": "General",
-            "parentcat": "Category 5",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0003",
-            "question": "What training need to be completed for UI Developer?",
-            "answer": "HTML 5, Bootstrap, Angular.js, Angular 2+",
-            "cat": "UI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0004",
-            "question": "How to Login to VDI from outsid'e TD Network?",
-            "answer": "<ol><li>Using Internet Explorer 11 go to URL: <a href='https://prod.vdi.ras.tdbank.ca' target='_blank'>https://prod.vdi.ras.tdbank.ca</a></li><li>Sign in – Fill out given fields and click Log On<ul><li><b>Username:</b> Enter your TDBFG username</li><li><b>Password:</b> Enter your TDBFG Password</li><li><b>Secure 'id' PASSCODE:</b> Enter your PIN followed by the numbers on your RSA token</li><li><b>Domain:</b> Select TDBFG</li><ul></li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0005",
-            "question": "How to launch the VDI?",
-            "answer": "<ol><li>Once you log in, Storefront will present two Tabs. You will a see Favorites and Desktop menu TAB.</li><li>On your first login, please select the Desktop TAB.</li><li>Once in the Desktop tab, you will see your VM(s), and you can add any of them to your Favorites TAB by selecting Details and Add To Favorites. You may have a single VM icon if you have one VM, or multiple VM icon’s representing multiple VMs.</li><li>The name of your VM ('id') is displayed bes'id'es the VM icon and will start with TVD**** in the “Detail” section. (Sample: TVD9C2A001)</li><li>Once you add your VM to the Favorites tab, it will be displayed in favorites next time you login.</li><li> You will then see a Connecting… screen shortly after launching the VM. Please note that launching your VM for the first time can take few minutes.</li></ol>",
-            "cat": "WIKI",
-            "parentcat": "Category 2",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0006",
-            "question": "What are the software(s) required to start work? And how to install them ?",
-            "answer": "<p>Raise the request for new softwares in Service now with below package name (may vary project to project)</p><ul><li>Git</li><li>Maven</li><li>Beyond Compare</li><li>JDK</li><li>Putty</li><li>Node JS</li><li>Notepad++</li><li>Teams</li></ul>",
-            "cat": "VDI",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0007",
-            "question": "How to complete TD Mandatory Training(s)?",
-            "answer": "<ul><li>Open TD Learning portal from VDI : <a href='https://td.sumtotal.host' target='_blank'>https://td.sumtotal.host</a></li><li>Navigate to Active Learning tab under Profile -> Active Learning</li><li>In Active Learning section, one can see all the trainings assigned to them, complete all the assigned trainings on time</li></ul>",
-            "cat": "WIKI",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0008",
-            "question": "What are the learning paths for MS Azure Cloud Platform?",
-            "answer": "<ul><p>Hands-on Courses for Microsoft Azure are available at below paths</p><li><b>LinkedIn:</b> Become an Azure Developer, Azure administration training URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> Digital : Microsoft Azure, Azure Fundamentals, Azure DevOps URL – <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>Fresco Play:</b> Azure Essentials, Azure Continuum, Azure Virtual Network, Azure Storage URL - <a href='https://play.fresco.me' target='_blank'>https://play.fresco.me</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
-        },
-        {
-            "id": "0009",
-            "question": "What are the learning paths for Adobe Experience Manager (AEM)?",
-            "answer": "<ul><p>Courses for AEM are available at below paths</p><li><b>Linkedln:</b> AEM Essentials training. URL - <a href='https://www.linkedin.com/' target='_blank'>https://www.linkedin.com/</a></li><li><b>iEvolve:</b> AEM Enterprise platform and solutions, Digital:Adobe  Experience Manager,AEM Foundation, AEM Features and Updates, AEM Sites: Developer,AEM Business Practitioner, AEM Architect. URL - <a href='https://ievolveng.ultimatix.net/ievolve/' target='_blank'>https://ievolveng.ultimatix.net/ievolve/</a></li><li><b>O'Reilly:</b> AEM Web Content Management, AEM Component Developer. URL - <a href='>https://learning.oreilly.com' target='_blank'>https://learning.oreilly.com</a></li></ul>",
-            "cat": "Training",
-            "parentcat": "Category 6",
-            "parentcatTag": "Category 1 Tag Goes Here"
+            "parentcat": "WIKI",
+            "parentcatTag": "WIKI Tag Goes Here"
         }
-    ]
+
+]
+       
+      
+
+
+
+
+
+
+
+       
 }
