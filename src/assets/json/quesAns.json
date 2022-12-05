@@ -212,6 +212,88 @@
             "parentcatTag": "System Setup Tag Goes Here"
         },
         {
+            "id": "0084",
+            "question": "What is AEM?",
+            "answer": "AEM or the Adobe Experience Manager is a comprehensive content management tool. It efficiently builds and manages websites, forms, and mobile apps. The AEM is a part of the Adobe Marketing Cloud.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+
+        {
+            "id": "0085",
+            "question": "What is a component?",
+			"answer": "In AEM, components are reusable modules that execute specific application logic to generate our website's content. The material available on your web pages is held, formatted, and rendered using AEM components. The components allow authors to change and configure content while creating pages. A JSP (Java Server Pages) or HTML file is frequently included in a component. HTML files provide the component's HTML markup as well as some business logic. A typical AEM page is made up of a lot of different elements. To put it another way, Components are the basic building blocks of AEM pages.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0086",
+            "question": "What is a template?",
+            "answer": "A Template helps you to set a uniform style for your application's pages. It also specifies which components (reusable modules) are permitted to be used within the scope chosen. It's a tree of nodes with the same structure as the page you're going to make. It is devoid of any actual content. AEM offers static as well as editable templates. ",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0087",
+            "question": "What is sightly?",
+            "answer": "Sightly is a Hypertext Template Language (HTL) specifically designed for AEM. It was introduced with AEM version 6.0. Sightly has been gaining importance because of it's various advantages for developing websites in AEM.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0088",
+            "question": "What is a workflow?",
+            "answer": "AEM Workflows allows you to automate a series of steps that are performed on (one or more) pages and/or assets. For example, when publishing, an editor has to review the content - before a site administrator activates the page.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+
+        {
+            "id": "0089",
+            "question": "What is a workflow model?",
+			"answer": "A WorkflowModel represents a definition (model) of a workflow. It is made of WorkflowNodes and WorkflowTransitions. The transitions connect the nodes and define the flow. The Model has always a start node and an end node.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0090",
+            "question": "What is OSGi?",
+            "answer": "OSGi (Open Service Gateway Initiative) a dynamic modular architecture for Java applications that is the basis for Adobe Experience Manager. It is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration. Read more: https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0091",
+            "question": "What are client libraries?",
+            "answer": "Client-Side Libraries provide a mechanism to organize and manage CSS and JavaScript files necessary for an AEM Sites implementation. AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0092",
+            "question": "What is a Servlet?",
+            "answer": "A Servlet is a class used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. For such applications, Servlet technology defines HTTP-specific servlet classes.All servlets must implement the Servlet interface, which defines life-cycle methods. A servlet in AEM can be registered as OSGi service: you can extend SlingSafeMethodsServlet for read-only implementation or SlingAllMethodsServlet in order to implement all RESTful operations.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
+            "id": "0093",
+            "question": "What are Sling Models?",
+            "answer": "Sling Models are annotation driven Java “POJO’s” (Plain Old Java Objects) that facilitate the mapping of data from the JCR to Java variables, and provide a number of other niceties when developing in the context of AEM.",
+            "cat": "AEM",
+            "parentcat": "System Setup",
+            "parentcatTag": "System Setup Tag Goes Here"
+        },
+        {
             "id": "0051",
             "question": "What is the prcess if your System got locked?",
             "answer": "Associate have to raise a CR ticket through Ultimatix-->Global Help Desk-->IT Services.",
